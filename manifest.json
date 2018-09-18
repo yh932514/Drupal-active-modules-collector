@@ -1,0 +1,16 @@
+{
+  "name": "Drupal active modules collector",
+  "description": "Display the checked modules, and hightline the dependencies on the Administration-Exted page.",
+  "version": "2.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "Display the checked modules, and hightline the dependencies on the Administration-Exted page."
+  },
+  "manifest_version": 2
+}
